@@ -23,7 +23,7 @@ void displayBanner()
 		}
 	}
 
-	System.out.println("-------------------------------------");
+	
 
 	if(this.text != null)
 	{

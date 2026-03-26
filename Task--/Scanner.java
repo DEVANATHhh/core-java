@@ -11,14 +11,28 @@ class Scanner
 
     void displayScanner()
     {
-        for(String m : models)
+     
+
+        if(this.models != null)
         {
-            System.out.println("Model: " + m);
+            
+
+            for(String m : models)
+            {
+                System.out.println("Model: " + m);
+            }
         }
 
-        for(ScannerText st : scannerText)
+        if(this.scannerText != null)
         {
-            st.displayScannerText();
+           
+            for(ScannerText st : scannerText)
+            {
+                if(st != null)
+                {
+                    st.displayScannerText();
+                }
+            }
         }
     }
 }

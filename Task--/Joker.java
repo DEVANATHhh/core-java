@@ -11,14 +11,29 @@ class Joker
 
     void displayJoker()
     {
-        for(String j : jokes)
+       
+
+        if(this.jokes != null)
         {
-            System.out.println("Joke: " + j);
+          
+
+            for(String j : jokes)
+            {
+                System.out.println("Joke: " + j);
+            }
         }
 
-        for(JokerText jt : jokerText)
+        if(this.jokerText != null)
         {
-            jt.displayJokerText();
+           
+
+            for(JokerText jt : jokerText)
+            {
+                if(jt != null)
+                {
+                    jt.displayJokerText();
+                }
+            }
         }
     }
 }

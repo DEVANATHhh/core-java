@@ -37,7 +37,6 @@ public static void main(String... val)
 
 
 
-	// Carpenter
 	String[] tools=new String[3];
 	tools[0]="Saw";
 	tools[1]="Hammer";
@@ -115,8 +114,7 @@ scanner.displayScanner();
 	broker.displayBroker();
 
 
-	System.out.println("---------------------------------");
-
+	
 	int[] weight=new int[3];
 	weight[0]=2;
 	weight[1]=3;
@@ -131,7 +129,7 @@ scanner.displayScanner();
 	hammer.displayHammer();
 
 
-	System.out.println("---------------------------------");
+	
 
 
 	String[] flavours=new String[3];
@@ -148,7 +146,6 @@ scanner.displayScanner();
 	jamoon.displayJamoon();
 
 
-	System.out.println("---------------------------------");
 
 
 	
@@ -164,7 +161,7 @@ scanner.displayScanner();
 
         Banner banner = new Banner(size, text);
         banner.displayBanner();
-	System.out.println("---------------------------------");
+
 
 
 	String[] ingredients=new String[3];
