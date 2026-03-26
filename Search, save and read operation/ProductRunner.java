@@ -120,6 +120,44 @@ class ProductRunner {
 		Product product98 = new Product("Board Game","Hasbro","03-08-2024",1200,ProductType.TOYS,"Store",ProductWarrentyYear.ONE,false,2098,"USA");
 		Product product99 = new Product("Remote Helicopter","ToyCo","04-08-2024",3500,ProductType.TOYS,"Store",ProductWarrentyYear.ONE,false,2099,"China");
 		Product product100 = new Product("Building Blocks","Lego","05-08-2024",5000,ProductType.TOYS,"Store",ProductWarrentyYear.ONE,false,2100,"Denmark");
+		Product product101 = new Product("Mixer","Prestige","01-09-2024",3000,ProductType.HOUSEHOLD,"Store",ProductWarrentyYear.TWO,false,2101,"India");
+		Product product102 = new Product("Iron Box","Philips","02-09-2024",2000,ProductType.HOUSEHOLD,"Store",ProductWarrentyYear.ONE,false,2102,"Netherlands");
+		Product product103 = new Product("Vacuum Cleaner","Dyson","03-09-2024",25000,ProductType.HOUSEHOLD,"Store",		ProductWarrentyYear.THREE,false,2103,"UK");
+		Product product104 = new Product("Air Cooler","Bajaj","04-09-2024",8000,ProductType.HOUSEHOLD,"Store",ProductWarrentyYear.TWO,false,2104,"India");
+		Product product105 = new Product("Heater","Usha","05-09-2024",5000,ProductType.HOUSEHOLD,"Store",ProductWarrentyYear.TWO,false,2105,"India");
+		Product product106 = new Product("Gaming Mouse","Logitech","01-10-2024",2500,ProductType.ELECTRONICS,"Amazon",		ProductWarrentyYear.ONE,false,2106,"Switzerland");
+		Product product107 = new Product("Keyboard","HP","02-10-2024",1500,ProductType.ELECTRONICS,"Amazon",ProductWarrentyYear.ONE,false,2107,"USA");
+		Product product108 = new Product("Monitor","Dell","03-10-2024",12000,ProductType.ELECTRONICS,"Amazon",ProductWarrentyYear.THREE,false,2108,"USA");
+		Product product109 = new Product("Router","TP-Link","04-10-2024",3000,ProductType.ELECTRONICS,"Amazon",ProductWarrentyYear.TWO,false,2109,"China");
+		Product product110 = new Product("Hard Disk","Seagate","05-10-2024",6000,ProductType.ELECTRONICS,"Amazon",		ProductWarrentyYear.TWO,false,2110,"USA");
+		Product product111 = new Product("Formal Shirt","Arrow","01-11-2024",2000,ProductType.CLOTHING,"Myntra",ProductWarrentyYear.ONE,false,2111,"India");
+		Product product112 = new Product("Denim Jacket","Wrangler","02-11-2024",4000,ProductType.CLOTHING,"Myntra",		ProductWarrentyYear.ONE,false,2112,"USA");
+		Product product113 = new Product("Sweatshirt","HRX","03-11-2024",2500,ProductType.CLOTHING,"Myntra",ProductWarrentyYear.ONE,false,2113,"India");
+		Product product114 = new Product("Skirt","Zara","04-11-2024",3500,ProductType.CLOTHING,"Mall",ProductWarrentyYear.ONE,false,2114,"Spain");
+		Product product115 = new Product("Blouse","Biba","05-11-2024",1500,ProductType.CLOTHING,"Store",ProductWarrentyYear.ONE,false,2115,"India");
+		Product product116 = new Product("Green Tea","Lipton","01-12-2024",200,ProductType.FOOD,"Store",ProductWarrentyYear.ZERO,false,2116,"India");
+		Product product117 = new Product("Coffee","Nescafe","02-12-2024",300,ProductType.FOOD,"Store",ProductWarrentyYear.ZERO,false,2117,"Switzerland");
+		Product product118 = new Product("Energy Drink","RedBull","03-12-2024",150,ProductType.FOOD,"Store",ProductWarrentyYear.ZERO,false,2118,"Austria");
+		Product product119 = new Product("Soft Drink","CocaCola","04-12-2024",60,ProductType.FOOD,"Store",ProductWarrentyYear.ZERO,false,2119,"USA");
+		Product product120 = new Product("Mineral Water","Bisleri","05-12-2024",20,ProductType.FOOD,"Store",ProductWarrentyYear.ZERO,false,2120,"India");
+		Product product121 = new Product("Teddy Bear","ToyCo","01-01-2025",1000,ProductType.TOYS,"Store",ProductWarrentyYear.ONE,false,2121,"China");
+		Product product122 = new Product("Robot Toy","Funskool","02-01-2025",2000,ProductType.TOYS,"Store",ProductWarrentyYear.ONE,	false,2122,"India");
+		Product product123 = new Product("Drone","DJI","03-01-2025",50000,ProductType.TOYS,"Store",ProductWarrentyYear.ONE,false,2123,"China");
+		Product product124 = new Product("Skipping Rope","Local","04-01-2025",200,ProductType.TOYS,"Store",ProductWarrentyYear.ZERO,false,2124,"India");
+		Product product125 = new Product("Cricket Bat","SG","05-01-2025",3000,ProductType.TOYS,"Store",ProductWarrentyYear.ONE,false,2125,"India");
+		Product product126 = new Product("Face Mask","Ponds","01-02-2025",150,ProductType.BEAUTY,"Store",ProductWarrentyYear.ONE,false,2126,"India");
+		Product product127 = new Product("Hair Dryer","Philips","02-02-2025",2000,ProductType.BEAUTY,"Amazon",ProductWarrentyYear.TWO,false,2127,"Netherlands");
+		Product product128 = new Product("Trimmer","Philips","03-02-2025",1800,ProductType.BEAUTY,"Amazon",ProductWarrentyYear.TWO,false,2128,"Netherlands");
+		Product product129 = new Product("Shaving Kit","Gillette","04-02-2025",1000,ProductType.BEAUTY,"Store",ProductWarrentyYear.ONE,false,2129,"USA");
+		Product product130 = new Product("Body Spray","Axe","05-02-2025",300,ProductType.BEAUTY,"Store",ProductWarrentyYear.ONE,false,2130,"USA");
+		Product product131 = new Product("File Folder","Solo","01-03-2025",100,ProductType.STATIONERY,"Store",ProductWarrentyYear.ZERO,false,2131,"India");
+		Product product132 = new Product("Calculator","Casio","02-03-2025",500,ProductType.STATIONERY,"Store",ProductWarrentyYear.ONE,false,2132,"Japan");
+		Product product133 = new Product("White Board","Local","03-03-2025",1000,ProductType.STATIONERY,"Store",ProductWarrentyYear.ZERO,false,2133,"India");
+		Product product134 = new Product("Duster","Local","04-03-2025",50,ProductType.STATIONERY,"Store",ProductWarrentyYear.ZERO,false,2134,"India");
+		Product product135 = new Product("Ink Bottle","Camlin","05-03-2025",120,ProductType.STATIONERY,"Store",ProductWarrentyYear.ZERO,false,2135,"India");
+		Product product136 = new Product("Helmet","Vega","01-04-2025",2000,ProductType.ACCESSORIES,"Store",ProductWarrentyYear.ONE,false,2136,"India");
+		Product product137 = new Product("Gloves","Puma","02-04-2025",800,ProductType.ACCESSORIES,"Store",ProductWarrentyYear.ONE,false,2137,"Germany");
+		
 
 		Product[] products = new Product[150];
 		ProductOperation op = new ProductOperation(products);
@@ -219,6 +257,7 @@ class ProductRunner {
 		op.save(product93);
 		op.save(product94);
 		op.save(product95);
+ 
 		Product[]  productsToAdd=new Product[4];
 		products[0]=product96;
 		products[1]=product97;
