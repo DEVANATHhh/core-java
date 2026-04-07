@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/inheritance casting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/methods for update and delete" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/multidimensional array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/packages" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
