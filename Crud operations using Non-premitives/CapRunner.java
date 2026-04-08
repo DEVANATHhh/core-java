@@ -102,31 +102,31 @@ tollStore.save(new TollGate("Davanagere Toll", "Karnataka", 105.0, "Bus", 5, "Hi
 System.out.println("-----------");
 
 CloudSoftware[] softwareArray = new CloudSoftware[10];
-CloudSoftwareStore store = new CloudSoftwareStore(softwareArray);
+CloudSoftwareStore store1 = new CloudSoftwareStore(softwareArray);
 
-store.save(new CloudSoftware("AWS EC2", "Amazon", "Public", 7500, "Web", true));
-store.save(new CloudSoftware("Azure VM", "Microsoft", "Public", 7000, "Web", true));
-store.save(new CloudSoftware("Google Compute Engine", "Google", "Public", 7200, "Web", true));
-store.save(new CloudSoftware("IBM Cloud", "IBM", "Hybrid", 6800, "Enterprise", true));
-store.save(new CloudSoftware("Oracle Cloud", "Oracle", "Public", 6500, "Enterprise", false));
-store.save(new CloudSoftware("Salesforce", "Salesforce", "SaaS", 9000, "CRM", true));
-store.save(new CloudSoftware("Dropbox", "Dropbox", "SaaS", 500, "Storage", true));
-store.save(new CloudSoftware("Google Drive", "Google", "SaaS", 300, "Storage", true));
-store.save(new CloudSoftware("Slack", "Slack", "SaaS", 800, "Communication", true));
-store.save(new CloudSoftware("Zoom", "Zoom", "SaaS", 600, "Communication", true));
+store1.save(new CloudSoftware("AWS EC2", "Amazon", "Public", 7500, "Web", true));
+store1.save(new CloudSoftware("Azure VM", "Microsoft", "Public", 7000, "Web", true));
+store1.save(new CloudSoftware("Google Compute Engine", "Google", "Public", 7200, "Web", true));
+store1.save(new CloudSoftware("IBM Cloud", "IBM", "Hybrid", 6800, "Enterprise", true));
+store1.save(new CloudSoftware("Oracle Cloud", "Oracle", "Public", 6500, "Enterprise", false));
+store1.save(new CloudSoftware("Salesforce", "Salesforce", "SaaS", 9000, "CRM", true));
+store1.save(new CloudSoftware("Dropbox", "Dropbox", "SaaS", 500, "Storage", true));
+store1.save(new CloudSoftware("Google Drive", "Google", "SaaS", 300, "Storage", true));
+store1.save(new CloudSoftware("Slack", "Slack", "SaaS", 800, "Communication", true));
+store1.save(new CloudSoftware("Zoom", "Zoom", "SaaS", 600, "Communication", true));
 
 Farmer[] farmer = new Farmer[10];
 FarmerStore farmerstore = new FarmerStore(farmer);
 
-farmerstore.save(new FarmerStore("Chaturth","Balehonnuru","Coffee",10,"Black soil");
-farmerstore.save(new FarmerStore("shodan","seegodu","arecanut",15,"Black soil");
-farmerstore.save(new FarmerStore("aman","Balehonnuru","Coffee",5,"red soil");
-farmerstore.save(new FarmerStore("koya","koppa","ragi",20,"mud soil");
-farmerstore.save(new FarmerStore("danush","kadbgere","ragi",10,"Black soil");
-farmerstore.save(new FarmerStore("shrijith","Bannur","Coffee",30,"red soil");
-farmerstore.save(new FarmerStore("manjunath","kanthi","ragi",2,"Black soil");
-farmerstore.save(new FarmerStore("raksha","chillamagaluru","paddy",10,"Black soil");
-farmerstore.save(new FarmerStore("rajesh","hassan","tomato",1,"red soil");
+farmerstore.save(new FarmerStore("Chaturth","Balehonnuru","Coffee",10,"Black soil"));
+farmerstore.save(new FarmerStore("shodan","seegodu","arecanut",15,"Black soil"));
+farmerstore.save(new FarmerStore("aman","Balehonnuru","Coffee",5,"red soil"));
+farmerstore.save(new FarmerStore("koya","koppa","ragi",20,"mud soil"));
+farmerstore.save(new FarmerStore("danush","kadbgere","ragi",10,"Black soil"));
+farmerstore.save(new FarmerStore("shrijith","Bannur","Coffee",30,"red soil"));
+farmerstore.save(new FarmerStore("manjunath","kanthi","ragi",2,"Black soil"));
+farmerstore.save(new FarmerStore("raksha","chillamagaluru","paddy",10,"Black soil"));
+farmerstore.save(new FarmerStore("rajesh","hassan","tomato",1,"red soil"));
 
 	}
 }

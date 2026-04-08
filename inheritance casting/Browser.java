@@ -5,4 +5,7 @@ class Browser{
 	void open(){
 		System.out.println("The open the Browser.");
 	}
+
+
+
 }
