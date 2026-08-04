@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle Registration</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body class="container mt-4">
+
+<h2 class="text-center mb-4">Vehicle Registration</h2>
+
+<form action="vehicle" method="post">
+
+    <div class="mb-3">
+        <label class="form-label">Vehicle Number</label>
+        <input type="text" class="form-control"
+               name="vehicleNo"
+               placeholder="KA01AB1234" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Owner Name</label>
+        <input type="text" class="form-control"
+               name="ownerName" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Vehicle Type</label>
+
+        <select class="form-select" name="vehicleType">
+
+            <option value="">Select</option>
+            <option>Bike</option>
+            <option>Car</option>
+            <option>Truck</option>
+            <option>Bus</option>
+
+        </select>
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Registration Date</label>
+
+        <input type="date"
+               class="form-control"
+               name="regDate">
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Insurance Valid Till</label>
+
+        <input type="date"
+               class="form-control"
+               name="insuranceDate">
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Fuel Type</label>
+
+        <select class="form-select"
+                name="fuel">
+
+            <option value="">Select</option>
+            <option>Petrol</option>
+            <option>Diesel</option>
+            <option>Electric</option>
+            <option>CNG</option>
+
+        </select>
+
+    </div>
+
+    <button class="btn btn-primary">
+        Register
+    </button>
+
+</form>
+
+</body>
+</html>

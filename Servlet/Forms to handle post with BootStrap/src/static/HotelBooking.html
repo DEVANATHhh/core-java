@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Booking</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body class="container mt-4">
+
+<h2 class="text-center mb-4">Hotel Booking</h2>
+
+<form action="hotel" method="post">
+
+    <div class="mb-3">
+        <label class="form-label">Guest Name</label>
+        <input type="text" class="form-control"
+               name="guestName" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Check-In Date</label>
+        <input type="date" class="form-control"
+               name="checkIn" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Check-Out Date</label>
+        <input type="date" class="form-control"
+               name="checkOut" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Room Type</label>
+
+        <select class="form-select" name="roomType">
+
+            <option value="">Select</option>
+            <option>Single</option>
+            <option>Double</option>
+            <option>Family</option>
+
+        </select>
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Number of Guests</label>
+
+        <input type="number"
+               class="form-control"
+               name="guests"
+               required>
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Total Amount</label>
+
+        <input type="number"
+               class="form-control"
+               name="amount"
+               required>
+
+    </div>
+
+    <button class="btn btn-primary">
+        Book Now
+    </button>
+
+</form>
+
+</body>
+</html>

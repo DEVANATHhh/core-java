@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Trip</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body class="container mt-4">
+
+<h2 class="text-center mb-4">Travel Trip Booking</h2>
+
+<form action="travel" method="post">
+
+    <div class="mb-3">
+        <label class="form-label">Destination Name</label>
+        <input type="text"
+               class="form-control"
+               name="destination"
+               required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Travel Date</label>
+        <input type="date"
+               class="form-control"
+               name="travelDate"
+               required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Return Date</label>
+        <input type="date"
+               class="form-control"
+               name="returnDate"
+               required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Number of Travelers</label>
+        <input type="number"
+               class="form-control"
+               name="travellers"
+               required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Budget</label>
+        <input type="number"
+               class="form-control"
+               name="budget"
+               required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Transport Mode</label>
+
+        <select class="form-select"
+                name="transport">
+
+            <option value="">Select</option>
+            <option>Bus</option>
+            <option>Train</option>
+            <option>Flight</option>
+            <option>Car</option>
+
+        </select>
+
+    </div>
+
+    <button class="btn btn-primary">
+        Book Trip
+    </button>
+
+</form>
+
+</body>
+</html>
